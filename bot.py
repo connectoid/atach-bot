@@ -2,6 +2,7 @@ import os
 import asyncio
 import logging
 import random
+from datetime import datetime
 
 from aiogram import Bot, Dispatcher
 from aiogram.filters import Command
@@ -43,12 +44,16 @@ async def main():
 
 
 async def request_dates(dp: Dispatcher):
+    current_time = datetime.now()
+    print("Дата и время запроса:", current_time.strftime("%d %B %Y, %H:%M:%S"))
+
     interval = random.randint(3, 5)
     for data in data_list:
         result = request_one_ticket(data)
         if result:
             for user_id in users:
                 await bot.send_message(chat_id=user_id, text=result) 
+                print(f'Есть билеты: {result}')
         await asyncio.sleep(interval)
 
 async def schedule_jobs():

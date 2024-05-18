@@ -66,8 +66,8 @@ def request_one_ticket(data):
                 departure = departure.split('"IATA":')[-1].split(',')[0].strip('"')
                 arrival = arrival.split('"IATA":')[-1].split(',')[0].strip('"')
                 date = date.split('T')[0]
-                result_message = f'Билетов по маршруту {departure} -> {arrival} на дату {date} нет.'
-                return result_message
+                # result_message = f'Билетов по маршруту {departure} -> {arrival} на дату {date} нет.'
+                return False
         else:
             print(f'Request 2 error: {response.status_code}')
             return f'Request 2 error: {response.status_code}'
@@ -80,7 +80,8 @@ def request_tickets():
     results_list = []
     for data in data_list:
         result_text = request_one_ticket(data)
-        results_list.append(result_text)
+        if result_text:
+            results_list.append(result_text)
     return results_list
 
 
