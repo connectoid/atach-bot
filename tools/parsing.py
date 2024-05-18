@@ -56,8 +56,8 @@ def request_one_ticket(data):
         if result_response.status_code == 200:
             result_data = result_response.json()
             info = result_data['flights']['search']['results']['info']
-            with open('result_data.json', 'w') as f:
-                json.dump(result_data, f)
+            # with open('result_data.json', 'w') as f:
+            #     json.dump(result_data, f)
             if info['errorCode'] is None:
                 flight_price = result_data['flights']['search']['results']['groupsData']['prices']['P1']['flightPrice']
                 departure = departure.split('"IATA":')[-1].split(',')[0].strip('"')
@@ -65,7 +65,7 @@ def request_one_ticket(data):
                 date = date.split('T')[0]
                 amount = flight_price['amount']
                 currency = flight_price['currency']
-                result_text = f'Есть билеты по маршруту {departure} -> {arrival} на дату {date} нет. Стоимость: {amount} {currency}'
+                result_text = f'Есть билеты по маршруту {departure} -> {arrival} на дату {date}. Стоимость: {amount} {currency}'
                 return result_text
             else:
                 departure = departure.split('"IATA":')[-1].split(',')[0].strip('"')
