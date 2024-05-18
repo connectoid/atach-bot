@@ -1,1 +1,860 @@
-{"guide": {"countries": {"RU": {"code": "RU", "name": "\u0420\u043e\u0441\u0441\u0438\u044f", "nameEn": "Russia"}, "US": {"code": "US", "name": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b", "nameEn": "United States"}}, "cities": {"58283": {"IATA": "DYR", "name": "\u0410\u043d\u0430\u0434\u044b\u0440\u044c", "nameEn": "Anadyr", "countryCode": "RU", "id": 58283}, "58165": {"IATA": "MOW", "name": "\u041c\u043e\u0441\u043a\u0432\u0430", "nameEn": "Moscow", "countryCode": "RU", "id": 58165}}, "airports": {"DYR": {"IATA": "DYR", "cityId": 58283, "cityIata": "DYR", "isAggregation": false, "airportRating": "4418", "baseType": "airport", "properNameEn": null, "properName": null, "name": "\u0410\u043d\u0430\u0434\u044b\u0440\u044c", "nameEn": "Anadyr", "countryCode": "RU"}, "SVO": {"IATA": "SVO", "cityId": 58165, "cityIata": "MOW", "isAggregation": false, "airportRating": "2012", "baseType": "airport", "properNameEn": "Sheremetyevo", "properName": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e", "name": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e, \u041c\u043e\u0441\u043a\u0432\u0430", "nameEn": "Sheremetyevo, Moscow", "countryCode": "RU"}, "MOW": {"IATA": "MOW", "cityId": 58165, "cityIata": "MOW", "isAggregation": true, "airportRating": "3537272", "baseType": "airport", "properNameEn": null, "properName": null, "name": "\u041c\u043e\u0441\u043a\u0432\u0430", "nameEn": "Moscow", "countryCode": "RU"}}, "airlines": {"SU": {"IATA": "SU", "name": "\u0410\u044d\u0440\u043e\u0444\u043b\u043e\u0442", "nameEn": "Aeroflot", "nameFallback": "Aeroflot", "rating": 7.5, "countryCode": "RU", "logo": {"image": "/guideStatic/images/carrier/logotype/3869-a73427f1141d3a37e1523c6193140a5d.svg", "icon": "/guideStatic/images/carrier/logotype/3869-a73427f1141d3a37e1523c6193140a5d.svg", "width": "0", "height": "0"}, "monochromeLogo": {"image": "/guideStatic/images/carrier/monochrome/5300-ff76a2b068ec48ac1372fdb512a37d66.svg", "icon": "/guideStatic/images/carrier/monochrome/5300-ff76a2b068ec48ac1372fdb512a37d66.svg", "width": "0", "height": "0"}, "colors": {"companyColor": "#345381", "companyColorAdditional": "#1e4275"}}}, "aircrafts": {"773": {"id": 100053, "name": "\u0411\u043e\u0438\u043d\u0433 777-300", "nameEn": "Boeing 777-300", "code": "773", "manufacture": "Boeing", "originCountries": ["US"], "distanceType": "long_range", "fuselageType": "\u0428\u0438\u0440\u043e\u043a\u043e\u0444\u044e\u0437\u0435\u043b\u044f\u0436\u043d\u044b\u0439", "capacity": "386", "cruiseSpeed": "905", "isTurbineAirctaft": false, "isHomeAirctaft": false, "image": {"image": "/guideStatic/images/aircraft/images/2336-34beb8b2ee6bda8c4633d9654d1a9735.jpg", "icon": "/guideStatic/images/aircraft/images/2337-1923fbc6b86be12979d50b6a9dce3fdc.jpg", "width": "666", "height": "500"}, "map_image": {"image": "/guideStatic/images/aircraft/map_image/5426-33c7a1cc73a2d51ae92c7f563d0fccf1.jpg", "icon": "/guideStatic/images/aircraft/map_image/5427-632ff382980b0e121baaa9eabd7aa79e.jpg", "width": "400", "height": "94"}}}}, "flights": {"search": {"results": {"flightGroups": [{"segments": ["S1"], "flights": [{"id": 5272003950001, "nemo2id": "258638562030000", "service": "MIXVELNDC", "price": "P1", "rating": 10, "expectedNumberOfTickets": 2, "standbyQueueNumber": null, "isRecommended": false, "canProcessFareFamilies": true, "travelPolicies": [], "createOrderLink": "https://booking.ata-chukotka.ru/create__order?r="}]}], "info": {"errorCode": null, "errorMessageEng": null}, "groupsData": {"prices": {"P1": {"flightPrice": {"amount": 39170, "currency": "RUB"}, "agencyCharge": {"amount": 0, "currency": "RUB"}, "totalPrice": {"amount": 39170, "currency": "RUB"}, "originalCurrency": "RUB", "priceWithoutPromocode": null, "validatingCompany": "SU", "refundable": null, "privateFareInd": false, "ticketTimeLimit": "2024-05-18T07:06:00", "service": "MixVel NDC", "avlSeatsMin": 9, "canHaveSubsidizedTariffs": false, "warnings": [], "passengerFares": [{"type": "ADT", "count": 1, "baseFare": {"amount": 20000, "currency": "RUB"}, "equivFare": {"amount": 20000, "currency": "RUB"}, "totalFare": {"amount": 21085, "currency": "RUB"}, "taxes": [{"ZZ": {"amount": 185, "currency": "RUB"}}, {"SR": {"amount": 900, "currency": "RUB"}}], "tariffs": [{"code": "YCOSRI", "features": {"baggage": [{"code": "carry_on", "needToPay": "Free", "priority": 1, "showTitle": true, "description": {"short": "1x10 \u043a\u0433", "full": ""}, "markAsImportant": false}, {"code": "baggage", "needToPay": "Free", "priority": 2, "showTitle": true, "description": {"short": "1 \u0441\u0443\u043c\u043a\u0430", "full": ""}, "markAsImportant": false}], "refunds": [{"code": "exchangeable", "needToPay": "Charge", "priority": 5, "showTitle": false, "description": {"short": "\u0412\u043d\u0435\u0441\u0435\u043d\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u0432 \u0431\u0438\u043b\u0435\u0442", "full": "\u0412\u043d\u0435\u0441\u0435\u043d\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u0432 \u0431\u0438\u043b\u0435\u0442 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e \u043d\u0435 \u043f\u043e\u0437\u0434\u043d\u0435\u0435 40 \u043c\u0438\u043d\u0443\u0442 \u043f\u043e\u0441\u043b\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u0435\u0439\u0441\u0430, \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u043e\u0433\u043e \u0432 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u043d\u043e\u043c \u0431\u0438\u043b\u0435\u0442\u0435, \u043f\u0440\u0438 \u0443\u0441\u043b\u043e\u0432\u0438\u0438 \u043d\u0430\u043b\u0438\u0447\u0438\u044f \u043c\u0435\u0441\u0442 \u043f\u043e \u043e\u043f\u043b\u0430\u0447\u0435\u043d\u043d\u043e\u043c\u0443 \u0442\u0430\u0440\u0438\u0444\u0443, \u0441 \u0432\u0437\u0438\u043c\u0430\u043d\u0438\u0435\u043c \u043f\u043b\u0430\u0442\u044b. \u0412\u043d\u0435\u0441\u0435\u043d\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u043f\u043e\u0437\u0434\u043d\u0435\u0435 40 \u043c\u0438\u043d\u0443\u0442 \u043f\u043e\u0441\u043b\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u0435\u0439\u0441\u0430, \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u043e\u0433\u043e \u0432 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u043d\u043e\u043c \u0431\u0438\u043b\u0435\u0442\u0435 \u2014 \u043d\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e."}, "markAsImportant": false}, {"code": "exchangeable", "needToPay": "Charge", "priority": 6, "showTitle": false, "description": {"short": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u041a\u043e\u043c\u0444\u043e\u0440\u0442", "full": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u041a\u043e\u043c\u0444\u043e\u0440\u0442 \u043d\u0430 \u0441\u0442\u043e\u0439\u043a\u0435 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e \u0437\u0430 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u043f\u043b\u0430\u0442\u0443."}, "markAsImportant": false}, {"code": "exchangeable", "needToPay": "Charge", "priority": 7, "showTitle": false, "description": {"short": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u0411\u0438\u0437\u043d\u0435\u0441", "full": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u0411\u0438\u0437\u043d\u0435\u0441 \u043d\u0430 \u0441\u0442\u043e\u0439\u043a\u0435 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e \u0437\u0430 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u043f\u043b\u0430\u0442\u0443."}, "markAsImportant": false}, {"code": "exchangeable", "needToPay": "NotAvailable", "priority": 8, "showTitle": false, "description": {"short": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u043a\u043b\u0430\u0441\u0441\u0430 \u0437\u0430 \u043c\u0438\u043b\u0438", "full": "\u041f\u0440\u0435\u043c\u0438\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u043a\u043b\u0430\u0441\u0441\u0430 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0437\u0430 \u043c\u0438\u043b\u0438 \u043d\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e."}, "markAsImportant": false}, {"code": "exchangeable", "needToPay": "NotAvailable", "priority": 10, "showTitle": false, "description": {"short": "\u041e\u0442\u043a\u0440\u044b\u0442\u0430\u044f \u0434\u0430\u0442\u0430 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0433\u043e \u0432\u044b\u043b\u0435\u0442\u0430", "full": "\u041e\u0442\u043a\u0440\u044b\u0442\u0430\u044f \u0434\u0430\u0442\u0430 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0433\u043e \u0432\u044b\u043b\u0435\u0442\u0430 \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0430."}, "markAsImportant": false}, {"code": "refundable", "needToPay": "Charge", "priority": 9, "showTitle": false, "description": {"short": "\u0412\u043e\u0437\u0432\u0440\u0430\u0442 \u043f\u0440\u043e\u0432\u043e\u0437\u043d\u043e\u0439 \u043f\u043b\u0430\u0442\u044b", "full": "\u0412\u043e\u0437\u0432\u0440\u0430\u0442 \u043f\u0440\u043e\u0432\u043e\u0437\u043d\u043e\u0439 \u043f\u043b\u0430\u0442\u044b \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d \u043f\u0440\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0438 \u043e\u0431 \u043e\u0442\u043a\u0430\u0437\u0435 \u043e\u0442 \u043f\u0435\u0440\u0435\u0432\u043e\u0437\u043a\u0438 \u043d\u0435 \u043f\u043e\u0437\u0434\u043d\u0435\u0435, \u0447\u0435\u043c \u0437\u0430 40 \u043c\u0438\u043d\u0443\u0442 \u0434\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u0435\u0439\u0441\u0430, \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u043e\u0433\u043e \u0432 \u0431\u0438\u043b\u0435\u0442\u0435, \u0441 \u0443\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u0435\u043c \u043f\u043b\u0430\u0442\u044b. \u0412\u043e\u0437\u0432\u0440\u0430\u0442 \u043f\u0440\u043e\u0432\u043e\u0437\u043d\u043e\u0439 \u043f\u043b\u0430\u0442\u044b \u043f\u0440\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0438 \u043e\u0431 \u043e\u0442\u043a\u0430\u0437\u0435 \u043e\u0442 \u043f\u0435\u0440\u0435\u0432\u043e\u0437\u043a\u0438 \u043f\u043e\u0441\u043b\u0435 \u043e\u043a\u043e\u043d\u0447\u0430\u043d\u0438\u044f \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u043e\u0433\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u043f\u0430\u0441\u0441\u0430\u0436\u0438\u0440\u043e\u0432 \u043d\u0430 \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u0432 \u0431\u0438\u043b\u0435\u0442\u0435 \u0440\u0435\u0439\u0441 \u043d\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d."}, "markAsImportant": false}], "misc": [{"code": "miles", "needToPay": "Free", "priority": 3, "showTitle": false, "description": {"short": "\u041c\u0438\u043b\u0438 \u00ab\u0410\u044d\u0440\u043e\u0444\u043b\u043e\u0442 \u0411\u043e\u043d\u0443\u0441\u00bb \u2014 100-150%", "full": ""}, "markAsImportant": false}, {"code": "seats_registration", "needToPay": "Charge", "priority": 4, "showTitle": false, "description": {"short": "\u0412\u044b\u0431\u043e\u0440 \u043c\u0435\u0441\u0442", "full": "\u041f\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u044b\u0431\u043e\u0440 \u043c\u0435\u0441\u0442 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d \u0437\u0430 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u043f\u043b\u0430\u0442\u0443."}, "markAsImportant": false}, {"code": "vip_service", "needToPay": "Free", "priority": 11, "showTitle": false, "description": {"short": "\u0421\u0442\u043e\u043f\u043e\u0432\u0435\u0440", "full": "\u0412\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u043d\u0430\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u044f \u0432 \u043f\u0443\u043d\u043a\u0442\u0435 \u043f\u0435\u0440\u0435\u0441\u0430\u0434\u043a\u0438 \u0431\u043e\u043b\u0435\u0435 24 \u0447\u0430\u0441\u043e\u0432, \u043d\u043e \u043c\u0435\u043d\u0435\u0435 72 \u0447\u0430\u0441\u043e\u0432 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e."}, "markAsImportant": false}, {"code": "vip_service", "needToPay": "NotAvailable", "priority": 12, "showTitle": false, "description": {"short": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f", "full": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u043d\u0435 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f."}, "markAsImportant": false}, {"code": "vip_service", "needToPay": "NotAvailable", "priority": 13, "showTitle": false, "description": {"short": "\u0414\u043e\u0441\u0442\u0443\u043f \u0432 \u0437\u0430\u043b\u044b \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u044f", "full": "\u0414\u043e\u0441\u0442\u0443\u043f \u0432 \u0437\u0430\u043b\u044b \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u044f \u043f\u043e\u0432\u044b\u0448\u0435\u043d\u043d\u043e\u0439 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u043e\u0441\u0442\u0438 \u043d\u0435 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f."}, "markAsImportant": false}, {"code": "vip_service", "needToPay": "NotAvailable", "priority": 15, "showTitle": false, "description": {"short": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u043f\u043e\u0441\u0430\u0434\u043a\u0430", "full": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u043f\u043e\u0441\u0430\u0434\u043a\u0430 SkyPriority \u043d\u0435 \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u0430 \u0432 \u0442\u0430\u0440\u0438\u0444."}, "markAsImportant": false}, {"code": "vip_service", "needToPay": "NotAvailable", "priority": 16, "showTitle": false, "description": {"short": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u043e\u0435 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0433\u0430\u0436\u0430", "full": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u043e\u0435 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0433\u0430\u0436\u0430 SkyPriority \u043d\u0435 \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u043e \u0432 \u0442\u0430\u0440\u0438\u0444."}, "markAsImportant": false}], "hasFeatures": true, "isAutoGeneratedWithDescription": false}, "familyName": "\u042d\u043a\u043e\u043d\u043e\u043c \u041e\u043f\u0442\u0438\u043c\u0443\u043c", "segNum": 0, "routeNumber": 0, "serviceClass": "Economy"}]}, {"type": "CNN", "count": 1, "baseFare": {"amount": 17000, "currency": "RUB"}, "equivFare": {"amount": 17000, "currency": "RUB"}, "totalFare": {"amount": 18085, "currency": "RUB"}, "taxes": [{"ZZ": {"amount": 185, "currency": "RUB"}}, {"SR": {"amount": 900, "currency": "RUB"}}], "tariffs": [{"code": "YCOSRI/CH15", "features": {"baggage": [{"code": "carry_on", "needToPay": "Free", "priority": 1, "showTitle": true, "description": {"short": "1x10 \u043a\u0433", "full": ""}, "markAsImportant": false}, {"code": "baggage", "needToPay": "Free", "priority": 2, "showTitle": true, "description": {"short": "1 \u0441\u0443\u043c\u043a\u0430", "full": ""}, "markAsImportant": false}], "refunds": [{"code": "exchangeable", "needToPay": "Charge", "priority": 5, "showTitle": false, "description": {"short": "\u0412\u043d\u0435\u0441\u0435\u043d\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u0432 \u0431\u0438\u043b\u0435\u0442", "full": "\u0412\u043d\u0435\u0441\u0435\u043d\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u0432 \u0431\u0438\u043b\u0435\u0442 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e \u043d\u0435 \u043f\u043e\u0437\u0434\u043d\u0435\u0435 40 \u043c\u0438\u043d\u0443\u0442 \u043f\u043e\u0441\u043b\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u0435\u0439\u0441\u0430, \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u043e\u0433\u043e \u0432 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u043d\u043e\u043c \u0431\u0438\u043b\u0435\u0442\u0435, \u043f\u0440\u0438 \u0443\u0441\u043b\u043e\u0432\u0438\u0438 \u043d\u0430\u043b\u0438\u0447\u0438\u044f \u043c\u0435\u0441\u0442 \u043f\u043e \u043e\u043f\u043b\u0430\u0447\u0435\u043d\u043d\u043e\u043c\u0443 \u0442\u0430\u0440\u0438\u0444\u0443, \u0441 \u0432\u0437\u0438\u043c\u0430\u043d\u0438\u0435\u043c \u043f\u043b\u0430\u0442\u044b. \u0412\u043d\u0435\u0441\u0435\u043d\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u043f\u043e\u0437\u0434\u043d\u0435\u0435 40 \u043c\u0438\u043d\u0443\u0442 \u043f\u043e\u0441\u043b\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u0435\u0439\u0441\u0430, \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u043e\u0433\u043e \u0432 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u043d\u043e\u043c \u0431\u0438\u043b\u0435\u0442\u0435 \u2014 \u043d\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e."}, "markAsImportant": false}, {"code": "exchangeable", "needToPay": "Charge", "priority": 6, "showTitle": false, "description": {"short": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u041a\u043e\u043c\u0444\u043e\u0440\u0442", "full": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u041a\u043e\u043c\u0444\u043e\u0440\u0442 \u043d\u0430 \u0441\u0442\u043e\u0439\u043a\u0435 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e \u0437\u0430 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u043f\u043b\u0430\u0442\u0443."}, "markAsImportant": false}, {"code": "exchangeable", "needToPay": "Charge", "priority": 7, "showTitle": false, "description": {"short": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u0411\u0438\u0437\u043d\u0435\u0441", "full": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u0411\u0438\u0437\u043d\u0435\u0441 \u043d\u0430 \u0441\u0442\u043e\u0439\u043a\u0435 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e \u0437\u0430 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u043f\u043b\u0430\u0442\u0443."}, "markAsImportant": false}, {"code": "exchangeable", "needToPay": "NotAvailable", "priority": 8, "showTitle": false, "description": {"short": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u043a\u043b\u0430\u0441\u0441\u0430 \u0437\u0430 \u043c\u0438\u043b\u0438", "full": "\u041f\u0440\u0435\u043c\u0438\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u043a\u043b\u0430\u0441\u0441\u0430 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0437\u0430 \u043c\u0438\u043b\u0438 \u043d\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e."}, "markAsImportant": false}, {"code": "exchangeable", "needToPay": "NotAvailable", "priority": 10, "showTitle": false, "description": {"short": "\u041e\u0442\u043a\u0440\u044b\u0442\u0430\u044f \u0434\u0430\u0442\u0430 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0433\u043e \u0432\u044b\u043b\u0435\u0442\u0430", "full": "\u041e\u0442\u043a\u0440\u044b\u0442\u0430\u044f \u0434\u0430\u0442\u0430 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0433\u043e \u0432\u044b\u043b\u0435\u0442\u0430 \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0430."}, "markAsImportant": false}, {"code": "refundable", "needToPay": "Charge", "priority": 9, "showTitle": false, "description": {"short": "\u0412\u043e\u0437\u0432\u0440\u0430\u0442 \u043f\u0440\u043e\u0432\u043e\u0437\u043d\u043e\u0439 \u043f\u043b\u0430\u0442\u044b", "full": "\u0412\u043e\u0437\u0432\u0440\u0430\u0442 \u043f\u0440\u043e\u0432\u043e\u0437\u043d\u043e\u0439 \u043f\u043b\u0430\u0442\u044b \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d \u043f\u0440\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0438 \u043e\u0431 \u043e\u0442\u043a\u0430\u0437\u0435 \u043e\u0442 \u043f\u0435\u0440\u0435\u0432\u043e\u0437\u043a\u0438 \u043d\u0435 \u043f\u043e\u0437\u0434\u043d\u0435\u0435, \u0447\u0435\u043c \u0437\u0430 40 \u043c\u0438\u043d\u0443\u0442 \u0434\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u0435\u0439\u0441\u0430, \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u043e\u0433\u043e \u0432 \u0431\u0438\u043b\u0435\u0442\u0435, \u0441 \u0443\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u0435\u043c \u043f\u043b\u0430\u0442\u044b. \u0412\u043e\u0437\u0432\u0440\u0430\u0442 \u043f\u0440\u043e\u0432\u043e\u0437\u043d\u043e\u0439 \u043f\u043b\u0430\u0442\u044b \u043f\u0440\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0438 \u043e\u0431 \u043e\u0442\u043a\u0430\u0437\u0435 \u043e\u0442 \u043f\u0435\u0440\u0435\u0432\u043e\u0437\u043a\u0438 \u043f\u043e\u0441\u043b\u0435 \u043e\u043a\u043e\u043d\u0447\u0430\u043d\u0438\u044f \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u043e\u0433\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u043f\u0430\u0441\u0441\u0430\u0436\u0438\u0440\u043e\u0432 \u043d\u0430 \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u0432 \u0431\u0438\u043b\u0435\u0442\u0435 \u0440\u0435\u0439\u0441 \u043d\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d."}, "markAsImportant": false}], "misc": [{"code": "miles", "needToPay": "Free", "priority": 3, "showTitle": false, "description": {"short": "\u041c\u0438\u043b\u0438 \u00ab\u0410\u044d\u0440\u043e\u0444\u043b\u043e\u0442 \u0411\u043e\u043d\u0443\u0441\u00bb \u2014 100-150%", "full": ""}, "markAsImportant": false}, {"code": "seats_registration", "needToPay": "Charge", "priority": 4, "showTitle": false, "description": {"short": "\u0412\u044b\u0431\u043e\u0440 \u043c\u0435\u0441\u0442", "full": "\u041f\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u044b\u0431\u043e\u0440 \u043c\u0435\u0441\u0442 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d \u0437\u0430 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u043f\u043b\u0430\u0442\u0443."}, "markAsImportant": false}, {"code": "vip_service", "needToPay": "Free", "priority": 11, "showTitle": false, "description": {"short": "\u0421\u0442\u043e\u043f\u043e\u0432\u0435\u0440", "full": "\u0412\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u043d\u0430\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u044f \u0432 \u043f\u0443\u043d\u043a\u0442\u0435 \u043f\u0435\u0440\u0435\u0441\u0430\u0434\u043a\u0438 \u0431\u043e\u043b\u0435\u0435 24 \u0447\u0430\u0441\u043e\u0432, \u043d\u043e \u043c\u0435\u043d\u0435\u0435 72 \u0447\u0430\u0441\u043e\u0432 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e."}, "markAsImportant": false}, {"code": "vip_service", "needToPay": "NotAvailable", "priority": 12, "showTitle": false, "description": {"short": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f", "full": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u043d\u0435 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f."}, "markAsImportant": false}, {"code": "vip_service", "needToPay": "NotAvailable", "priority": 13, "showTitle": false, "description": {"short": "\u0414\u043e\u0441\u0442\u0443\u043f \u0432 \u0437\u0430\u043b\u044b \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u044f", "full": "\u0414\u043e\u0441\u0442\u0443\u043f \u0432 \u0437\u0430\u043b\u044b \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u044f \u043f\u043e\u0432\u044b\u0448\u0435\u043d\u043d\u043e\u0439 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u043e\u0441\u0442\u0438 \u043d\u0435 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f."}, "markAsImportant": false}, {"code": "vip_service", "needToPay": "NotAvailable", "priority": 15, "showTitle": false, "description": {"short": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u043f\u043e\u0441\u0430\u0434\u043a\u0430", "full": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u043f\u043e\u0441\u0430\u0434\u043a\u0430 SkyPriority \u043d\u0435 \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u0430 \u0432 \u0442\u0430\u0440\u0438\u0444."}, "markAsImportant": false}, {"code": "vip_service", "needToPay": "NotAvailable", "priority": 16, "showTitle": false, "description": {"short": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u043e\u0435 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0433\u0430\u0436\u0430", "full": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u043e\u0435 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0433\u0430\u0436\u0430 SkyPriority \u043d\u0435 \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u043e \u0432 \u0442\u0430\u0440\u0438\u0444."}, "markAsImportant": false}], "hasFeatures": true, "isAutoGeneratedWithDescription": false}, "familyName": "\u042d\u043a\u043e\u043d\u043e\u043c \u041e\u043f\u0442\u0438\u043c\u0443\u043c", "segNum": 0, "routeNumber": 0, "serviceClass": "Economy"}]}], "tariffsLink": "https://booking.ata-chukotka.ru/booking__rules?code=YCOSRI", "segmentInfo": [{"segNum": 0, "routeNumber": 0, "bookingClass": "Y", "serviceClass": "Economy", "avlSeats": 9, "freeBaggage": [{"passtype": "ADT", "value": 1, "measurement": "pc"}, {"passtype": "CNN", "value": 1, "measurement": "pc"}], "minBaggage": {"value": 1, "measurement": "pc"}}], "id": "P1"}}, "segments": {"S1": {"id": "S1", "depAirp": "DYR", "arrAirp": "SVO", "number": 0, "routeNumber": 0, "operatingCompany": "SU", "marketingCompany": "SU", "aircraftType": "773", "flightNumber": "6220", "isCharter": false, "isLowCost": false, "depTerminal": null, "arrTerminal": "B", "flightTime": 485, "eTicket": true, "depDateTime": "2024-05-30T15:25:00", "arrDateTime": "2024-05-30T14:30:00", "stopPoints": null}}}, "id": 1315674331, "uri": "/api/flights/search/results/1315674331"}, "resultData": {"postFilters": {"postFiltersSort": ["subsidyInfo", "flightID", "freeBaggage", "timeEnRoute", "departureAirport", "arrivalAirport", "departureTime", "arrivalTime", "transfersCount", "price", "carrier", "transfersDuration", "travelPolicies"], "showPostFilterHint": false}, "defaultSort": "price", "carrierDefaultSort": "depTime", "showAirplanePopup": true, "defaultViewType": "tile", "showBlocks": {"useShowCase": false, "showBestOffers": false, "useFlightCompareTable": false, "hideViewTypeButtons": false, "allow\u0421laim\u0421reation": false, "showFareVariations": false}, "searchTimeout": {"useSearchTimeout": false}, "needCheckAvail": true, "compareTableTransfersType": "sum"}, "request": {"id": 1315674331, "uri": "/api/flights/search/request/1315674331", "segments": [{"departure": {"IATA": "DYR", "isCity": false, "cityId": 58283}, "arrival": {"IATA": "MOW", "isCity": true, "cityId": 58165}, "departureDate": "2024-05-30T00:00:00"}], "passengers": [{"type": "ADT", "count": 1}, {"type": "CLD", "count": 1}], "parameters": {"searchType": "OW", "direct": false, "aroundDates": 0, "serviceClass": "Economy", "flightNumbers": [], "airlines": [], "delayed": true, "priceRefundType": null}}, "formData": {"maxLimits": {"passengerCount": {"ADT": "6", "SRC": "6", "YTH": "6", "CLD": "4", "INF": "2", "INS": "2"}, "totalPassengers": "9", "flightSegments": "5", "ageRestrictions": {"INF": {"from": 0, "to": 2, "translation": "passengerType_infant_ageInfo"}, "INS": {"from": 0, "to": 2, "translation": "passengerType_infant_ageInfo"}, "CLD": {"from": 2, "to": 12, "translation": "passengerType_child_ageInfo"}, "ADT": {"from": 12, "to": null, "translation": "passengerType_adult_ageInfo"}, "YTH": {"from": 12, "to": 16, "translation": "passengerType_student_ageInfo"}, "SRC": {"from": 60, "to": null, "translation": "passengerType_retired_person_ageInfo"}}}, "dateOptions": {"minOffset": 0, "maxOffset": 365, "aroundDatesValues": [1, 2, 3]}, "showCitySwapBtn": true, "scheduleSearchEnable": true, "onFocusAutocomplete": false, "forceAggregationAirports": false, "searchWithoutAdults": false, "hideDirectOnlyCheckbox": false, "highlightDates": false, "disableUnavailableDate": false, "passengersSelect": {"extendedPassengersSelect": true, "passengersSelectAlt": true, "tripType": "select", "fastPassengersSelect": [{"label": "singleAdult", "set": {"ADT": 1}}, {"label": "twoAdults", "set": {"ADT": 2}}, {"label": "twoAdultsWithChild", "set": {"ADT": 2, "CLD": 1}}]}, "id": 1315674331, "uri": "/api/flights/search/formData/1315674331"}}}, "system": {"info": {"response": {"timestamp": 1716003458.845099, "responseTime": 1.4449100494384766}, "user": {"userID": 792241, "agencyID": 790754, "status": "guest", "isB2B": false, "settings": {"currentLanguage": "ru", "currentCurrency": "RUB", "agencyCurrency": "RUB", "agencyCountry": "RU", "googleMapsApiKey": "", "googleMapsClientId": "", "showFullFlightsResults": "false"}}}}}
+{
+    "guide": {
+        "countries": {
+            "RU": {
+                "code": "RU",
+                "name": "\u0420\u043e\u0441\u0441\u0438\u044f",
+                "nameEn": "Russia"
+            },
+            "US": {
+                "code": "US",
+                "name": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b",
+                "nameEn": "United States"
+            }
+        },
+        "cities": {
+            "58283": {
+                "IATA": "DYR",
+                "name": "\u0410\u043d\u0430\u0434\u044b\u0440\u044c",
+                "nameEn": "Anadyr",
+                "countryCode": "RU",
+                "id": 58283
+            },
+            "58165": {
+                "IATA": "MOW",
+                "name": "\u041c\u043e\u0441\u043a\u0432\u0430",
+                "nameEn": "Moscow",
+                "countryCode": "RU",
+                "id": 58165
+            }
+        },
+        "airports": {
+            "DYR": {
+                "IATA": "DYR",
+                "cityId": 58283,
+                "cityIata": "DYR",
+                "isAggregation": false,
+                "airportRating": "4418",
+                "baseType": "airport",
+                "properNameEn": null,
+                "properName": null,
+                "name": "\u0410\u043d\u0430\u0434\u044b\u0440\u044c",
+                "nameEn": "Anadyr",
+                "countryCode": "RU"
+            },
+            "SVO": {
+                "IATA": "SVO",
+                "cityId": 58165,
+                "cityIata": "MOW",
+                "isAggregation": false,
+                "airportRating": "2012",
+                "baseType": "airport",
+                "properNameEn": "Sheremetyevo",
+                "properName": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e",
+                "name": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
+                "nameEn": "Sheremetyevo, Moscow",
+                "countryCode": "RU"
+            },
+            "MOW": {
+                "IATA": "MOW",
+                "cityId": 58165,
+                "cityIata": "MOW",
+                "isAggregation": true,
+                "airportRating": "3537272",
+                "baseType": "airport",
+                "properNameEn": null,
+                "properName": null,
+                "name": "\u041c\u043e\u0441\u043a\u0432\u0430",
+                "nameEn": "Moscow",
+                "countryCode": "RU"
+            }
+        },
+        "airlines": {
+            "SU": {
+                "IATA": "SU",
+                "name": "\u0410\u044d\u0440\u043e\u0444\u043b\u043e\u0442",
+                "nameEn": "Aeroflot",
+                "nameFallback": "Aeroflot",
+                "rating": 7.5,
+                "countryCode": "RU",
+                "logo": {
+                    "image": "/guideStatic/images/carrier/logotype/3869-a73427f1141d3a37e1523c6193140a5d.svg",
+                    "icon": "/guideStatic/images/carrier/logotype/3869-a73427f1141d3a37e1523c6193140a5d.svg",
+                    "width": "0",
+                    "height": "0"
+                },
+                "monochromeLogo": {
+                    "image": "/guideStatic/images/carrier/monochrome/5300-ff76a2b068ec48ac1372fdb512a37d66.svg",
+                    "icon": "/guideStatic/images/carrier/monochrome/5300-ff76a2b068ec48ac1372fdb512a37d66.svg",
+                    "width": "0",
+                    "height": "0"
+                },
+                "colors": {
+                    "companyColor": "#345381",
+                    "companyColorAdditional": "#1e4275"
+                }
+            }
+        },
+        "aircrafts": {
+            "773": {
+                "id": 100053,
+                "name": "\u0411\u043e\u0438\u043d\u0433 777-300",
+                "nameEn": "Boeing 777-300",
+                "code": "773",
+                "manufacture": "Boeing",
+                "originCountries": [
+                    "US"
+                ],
+                "distanceType": "long_range",
+                "fuselageType": "\u0428\u0438\u0440\u043e\u043a\u043e\u0444\u044e\u0437\u0435\u043b\u044f\u0436\u043d\u044b\u0439",
+                "capacity": "386",
+                "cruiseSpeed": "905",
+                "isTurbineAirctaft": false,
+                "isHomeAirctaft": false,
+                "image": {
+                    "image": "/guideStatic/images/aircraft/images/2336-34beb8b2ee6bda8c4633d9654d1a9735.jpg",
+                    "icon": "/guideStatic/images/aircraft/images/2337-1923fbc6b86be12979d50b6a9dce3fdc.jpg",
+                    "width": "666",
+                    "height": "500"
+                },
+                "map_image": {
+                    "image": "/guideStatic/images/aircraft/map_image/5426-33c7a1cc73a2d51ae92c7f563d0fccf1.jpg",
+                    "icon": "/guideStatic/images/aircraft/map_image/5427-632ff382980b0e121baaa9eabd7aa79e.jpg",
+                    "width": "400",
+                    "height": "94"
+                }
+            }
+        }
+    },
+    "flights": {
+        "search": {
+            "results": {
+                "flightGroups": [
+                    {
+                        "segments": [
+                            "S1"
+                        ],
+                        "flights": [
+                            {
+                                "id": 5272003950001,
+                                "nemo2id": "258638562030000",
+                                "service": "MIXVELNDC",
+                                "price": "P1",
+                                "rating": 10,
+                                "expectedNumberOfTickets": 2,
+                                "standbyQueueNumber": null,
+                                "isRecommended": false,
+                                "canProcessFareFamilies": true,
+                                "travelPolicies": [],
+                                "createOrderLink": "https://booking.ata-chukotka.ru/create__order?r="
+                            }
+                        ]
+                    }
+                ],
+                "info": {
+                    "errorCode": null,
+                    "errorMessageEng": null
+                },
+                "groupsData": {
+                    "prices": {
+                        "P1": {
+                            "flightPrice": {
+                                "amount": 39170,
+                                "currency": "RUB"
+                            },
+                            "agencyCharge": {
+                                "amount": 0,
+                                "currency": "RUB"
+                            },
+                            "totalPrice": {
+                                "amount": 39170,
+                                "currency": "RUB"
+                            },
+                            "originalCurrency": "RUB",
+                            "priceWithoutPromocode": null,
+                            "validatingCompany": "SU",
+                            "refundable": null,
+                            "privateFareInd": false,
+                            "ticketTimeLimit": "2024-05-18T07:06:00",
+                            "service": "MixVel NDC",
+                            "avlSeatsMin": 9,
+                            "canHaveSubsidizedTariffs": false,
+                            "warnings": [],
+                            "passengerFares": [
+                                {
+                                    "type": "ADT",
+                                    "count": 1,
+                                    "baseFare": {
+                                        "amount": 20000,
+                                        "currency": "RUB"
+                                    },
+                                    "equivFare": {
+                                        "amount": 20000,
+                                        "currency": "RUB"
+                                    },
+                                    "totalFare": {
+                                        "amount": 21085,
+                                        "currency": "RUB"
+                                    },
+                                    "taxes": [
+                                        {
+                                            "ZZ": {
+                                                "amount": 185,
+                                                "currency": "RUB"
+                                            }
+                                        },
+                                        {
+                                            "SR": {
+                                                "amount": 900,
+                                                "currency": "RUB"
+                                            }
+                                        }
+                                    ],
+                                    "tariffs": [
+                                        {
+                                            "code": "YCOSRI",
+                                            "features": {
+                                                "baggage": [
+                                                    {
+                                                        "code": "carry_on",
+                                                        "needToPay": "Free",
+                                                        "priority": 1,
+                                                        "showTitle": true,
+                                                        "description": {
+                                                            "short": "1x10 \u043a\u0433",
+                                                            "full": ""
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "baggage",
+                                                        "needToPay": "Free",
+                                                        "priority": 2,
+                                                        "showTitle": true,
+                                                        "description": {
+                                                            "short": "1 \u0441\u0443\u043c\u043a\u0430",
+                                                            "full": ""
+                                                        },
+                                                        "markAsImportant": false
+                                                    }
+                                                ],
+                                                "refunds": [
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 5,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u0412\u043d\u0435\u0441\u0435\u043d\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u0432 \u0431\u0438\u043b\u0435\u0442",
+                                                            "full": "\u0412\u043d\u0435\u0441\u0435\u043d\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u0432 \u0431\u0438\u043b\u0435\u0442 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e \u043d\u0435 \u043f\u043e\u0437\u0434\u043d\u0435\u0435 40 \u043c\u0438\u043d\u0443\u0442 \u043f\u043e\u0441\u043b\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u0435\u0439\u0441\u0430, \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u043e\u0433\u043e \u0432 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u043d\u043e\u043c \u0431\u0438\u043b\u0435\u0442\u0435, \u043f\u0440\u0438 \u0443\u0441\u043b\u043e\u0432\u0438\u0438 \u043d\u0430\u043b\u0438\u0447\u0438\u044f \u043c\u0435\u0441\u0442 \u043f\u043e \u043e\u043f\u043b\u0430\u0447\u0435\u043d\u043d\u043e\u043c\u0443 \u0442\u0430\u0440\u0438\u0444\u0443, \u0441 \u0432\u0437\u0438\u043c\u0430\u043d\u0438\u0435\u043c \u043f\u043b\u0430\u0442\u044b. \u0412\u043d\u0435\u0441\u0435\u043d\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u043f\u043e\u0437\u0434\u043d\u0435\u0435 40 \u043c\u0438\u043d\u0443\u0442 \u043f\u043e\u0441\u043b\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u0435\u0439\u0441\u0430, \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u043e\u0433\u043e \u0432 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u043d\u043e\u043c \u0431\u0438\u043b\u0435\u0442\u0435 \u2014 \u043d\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 6,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u041a\u043e\u043c\u0444\u043e\u0440\u0442",
+                                                            "full": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u041a\u043e\u043c\u0444\u043e\u0440\u0442 \u043d\u0430 \u0441\u0442\u043e\u0439\u043a\u0435 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e \u0437\u0430 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u043f\u043b\u0430\u0442\u0443."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 7,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u0411\u0438\u0437\u043d\u0435\u0441",
+                                                            "full": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u0411\u0438\u0437\u043d\u0435\u0441 \u043d\u0430 \u0441\u0442\u043e\u0439\u043a\u0435 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e \u0437\u0430 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u043f\u043b\u0430\u0442\u0443."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 8,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u043a\u043b\u0430\u0441\u0441\u0430 \u0437\u0430 \u043c\u0438\u043b\u0438",
+                                                            "full": "\u041f\u0440\u0435\u043c\u0438\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u043a\u043b\u0430\u0441\u0441\u0430 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0437\u0430 \u043c\u0438\u043b\u0438 \u043d\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 10,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041e\u0442\u043a\u0440\u044b\u0442\u0430\u044f \u0434\u0430\u0442\u0430 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0433\u043e \u0432\u044b\u043b\u0435\u0442\u0430",
+                                                            "full": "\u041e\u0442\u043a\u0440\u044b\u0442\u0430\u044f \u0434\u0430\u0442\u0430 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0433\u043e \u0432\u044b\u043b\u0435\u0442\u0430 \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0430."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "refundable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 9,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u0412\u043e\u0437\u0432\u0440\u0430\u0442 \u043f\u0440\u043e\u0432\u043e\u0437\u043d\u043e\u0439 \u043f\u043b\u0430\u0442\u044b",
+                                                            "full": "\u0412\u043e\u0437\u0432\u0440\u0430\u0442 \u043f\u0440\u043e\u0432\u043e\u0437\u043d\u043e\u0439 \u043f\u043b\u0430\u0442\u044b \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d \u043f\u0440\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0438 \u043e\u0431 \u043e\u0442\u043a\u0430\u0437\u0435 \u043e\u0442 \u043f\u0435\u0440\u0435\u0432\u043e\u0437\u043a\u0438 \u043d\u0435 \u043f\u043e\u0437\u0434\u043d\u0435\u0435, \u0447\u0435\u043c \u0437\u0430 40 \u043c\u0438\u043d\u0443\u0442 \u0434\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u0435\u0439\u0441\u0430, \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u043e\u0433\u043e \u0432 \u0431\u0438\u043b\u0435\u0442\u0435, \u0441 \u0443\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u0435\u043c \u043f\u043b\u0430\u0442\u044b. \u0412\u043e\u0437\u0432\u0440\u0430\u0442 \u043f\u0440\u043e\u0432\u043e\u0437\u043d\u043e\u0439 \u043f\u043b\u0430\u0442\u044b \u043f\u0440\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0438 \u043e\u0431 \u043e\u0442\u043a\u0430\u0437\u0435 \u043e\u0442 \u043f\u0435\u0440\u0435\u0432\u043e\u0437\u043a\u0438 \u043f\u043e\u0441\u043b\u0435 \u043e\u043a\u043e\u043d\u0447\u0430\u043d\u0438\u044f \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u043e\u0433\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u043f\u0430\u0441\u0441\u0430\u0436\u0438\u0440\u043e\u0432 \u043d\u0430 \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u0432 \u0431\u0438\u043b\u0435\u0442\u0435 \u0440\u0435\u0439\u0441 \u043d\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d."
+                                                        },
+                                                        "markAsImportant": false
+                                                    }
+                                                ],
+                                                "misc": [
+                                                    {
+                                                        "code": "miles",
+                                                        "needToPay": "Free",
+                                                        "priority": 3,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041c\u0438\u043b\u0438 \u00ab\u0410\u044d\u0440\u043e\u0444\u043b\u043e\u0442 \u0411\u043e\u043d\u0443\u0441\u00bb \u2014 100-150%",
+                                                            "full": ""
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "seats_registration",
+                                                        "needToPay": "Charge",
+                                                        "priority": 4,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u0412\u044b\u0431\u043e\u0440 \u043c\u0435\u0441\u0442",
+                                                            "full": "\u041f\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u044b\u0431\u043e\u0440 \u043c\u0435\u0441\u0442 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d \u0437\u0430 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u043f\u043b\u0430\u0442\u0443."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "Free",
+                                                        "priority": 11,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u0421\u0442\u043e\u043f\u043e\u0432\u0435\u0440",
+                                                            "full": "\u0412\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u043d\u0430\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u044f \u0432 \u043f\u0443\u043d\u043a\u0442\u0435 \u043f\u0435\u0440\u0435\u0441\u0430\u0434\u043a\u0438 \u0431\u043e\u043b\u0435\u0435 24 \u0447\u0430\u0441\u043e\u0432, \u043d\u043e \u043c\u0435\u043d\u0435\u0435 72 \u0447\u0430\u0441\u043e\u0432 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 12,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f",
+                                                            "full": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u043d\u0435 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 13,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u0414\u043e\u0441\u0442\u0443\u043f \u0432 \u0437\u0430\u043b\u044b \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u044f",
+                                                            "full": "\u0414\u043e\u0441\u0442\u0443\u043f \u0432 \u0437\u0430\u043b\u044b \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u044f \u043f\u043e\u0432\u044b\u0448\u0435\u043d\u043d\u043e\u0439 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u043e\u0441\u0442\u0438 \u043d\u0435 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 15,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u043f\u043e\u0441\u0430\u0434\u043a\u0430",
+                                                            "full": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u043f\u043e\u0441\u0430\u0434\u043a\u0430 SkyPriority \u043d\u0435 \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u0430 \u0432 \u0442\u0430\u0440\u0438\u0444."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 16,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u043e\u0435 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0433\u0430\u0436\u0430",
+                                                            "full": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u043e\u0435 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0433\u0430\u0436\u0430 SkyPriority \u043d\u0435 \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u043e \u0432 \u0442\u0430\u0440\u0438\u0444."
+                                                        },
+                                                        "markAsImportant": false
+                                                    }
+                                                ],
+                                                "hasFeatures": true,
+                                                "isAutoGeneratedWithDescription": false
+                                            },
+                                            "familyName": "\u042d\u043a\u043e\u043d\u043e\u043c \u041e\u043f\u0442\u0438\u043c\u0443\u043c",
+                                            "segNum": 0,
+                                            "routeNumber": 0,
+                                            "serviceClass": "Economy"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "CNN",
+                                    "count": 1,
+                                    "baseFare": {
+                                        "amount": 17000,
+                                        "currency": "RUB"
+                                    },
+                                    "equivFare": {
+                                        "amount": 17000,
+                                        "currency": "RUB"
+                                    },
+                                    "totalFare": {
+                                        "amount": 18085,
+                                        "currency": "RUB"
+                                    },
+                                    "taxes": [
+                                        {
+                                            "ZZ": {
+                                                "amount": 185,
+                                                "currency": "RUB"
+                                            }
+                                        },
+                                        {
+                                            "SR": {
+                                                "amount": 900,
+                                                "currency": "RUB"
+                                            }
+                                        }
+                                    ],
+                                    "tariffs": [
+                                        {
+                                            "code": "YCOSRI/CH15",
+                                            "features": {
+                                                "baggage": [
+                                                    {
+                                                        "code": "carry_on",
+                                                        "needToPay": "Free",
+                                                        "priority": 1,
+                                                        "showTitle": true,
+                                                        "description": {
+                                                            "short": "1x10 \u043a\u0433",
+                                                            "full": ""
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "baggage",
+                                                        "needToPay": "Free",
+                                                        "priority": 2,
+                                                        "showTitle": true,
+                                                        "description": {
+                                                            "short": "1 \u0441\u0443\u043c\u043a\u0430",
+                                                            "full": ""
+                                                        },
+                                                        "markAsImportant": false
+                                                    }
+                                                ],
+                                                "refunds": [
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 5,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u0412\u043d\u0435\u0441\u0435\u043d\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u0432 \u0431\u0438\u043b\u0435\u0442",
+                                                            "full": "\u0412\u043d\u0435\u0441\u0435\u043d\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u0432 \u0431\u0438\u043b\u0435\u0442 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e \u043d\u0435 \u043f\u043e\u0437\u0434\u043d\u0435\u0435 40 \u043c\u0438\u043d\u0443\u0442 \u043f\u043e\u0441\u043b\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u0435\u0439\u0441\u0430, \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u043e\u0433\u043e \u0432 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u043d\u043e\u043c \u0431\u0438\u043b\u0435\u0442\u0435, \u043f\u0440\u0438 \u0443\u0441\u043b\u043e\u0432\u0438\u0438 \u043d\u0430\u043b\u0438\u0447\u0438\u044f \u043c\u0435\u0441\u0442 \u043f\u043e \u043e\u043f\u043b\u0430\u0447\u0435\u043d\u043d\u043e\u043c\u0443 \u0442\u0430\u0440\u0438\u0444\u0443, \u0441 \u0432\u0437\u0438\u043c\u0430\u043d\u0438\u0435\u043c \u043f\u043b\u0430\u0442\u044b. \u0412\u043d\u0435\u0441\u0435\u043d\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u043f\u043e\u0437\u0434\u043d\u0435\u0435 40 \u043c\u0438\u043d\u0443\u0442 \u043f\u043e\u0441\u043b\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u0435\u0439\u0441\u0430, \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u043e\u0433\u043e \u0432 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u043d\u043e\u043c \u0431\u0438\u043b\u0435\u0442\u0435 \u2014 \u043d\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 6,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u041a\u043e\u043c\u0444\u043e\u0440\u0442",
+                                                            "full": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u041a\u043e\u043c\u0444\u043e\u0440\u0442 \u043d\u0430 \u0441\u0442\u043e\u0439\u043a\u0435 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e \u0437\u0430 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u043f\u043b\u0430\u0442\u0443."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 7,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u0411\u0438\u0437\u043d\u0435\u0441",
+                                                            "full": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0432 \u043a\u043b\u0430\u0441\u0441 \u0411\u0438\u0437\u043d\u0435\u0441 \u043d\u0430 \u0441\u0442\u043e\u0439\u043a\u0435 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e \u0437\u0430 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u043f\u043b\u0430\u0442\u0443."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 8,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u043a\u043b\u0430\u0441\u0441\u0430 \u0437\u0430 \u043c\u0438\u043b\u0438",
+                                                            "full": "\u041f\u0440\u0435\u043c\u0438\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u043a\u043b\u0430\u0441\u0441\u0430 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0437\u0430 \u043c\u0438\u043b\u0438 \u043d\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 10,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041e\u0442\u043a\u0440\u044b\u0442\u0430\u044f \u0434\u0430\u0442\u0430 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0433\u043e \u0432\u044b\u043b\u0435\u0442\u0430",
+                                                            "full": "\u041e\u0442\u043a\u0440\u044b\u0442\u0430\u044f \u0434\u0430\u0442\u0430 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0433\u043e \u0432\u044b\u043b\u0435\u0442\u0430 \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0430."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "refundable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 9,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u0412\u043e\u0437\u0432\u0440\u0430\u0442 \u043f\u0440\u043e\u0432\u043e\u0437\u043d\u043e\u0439 \u043f\u043b\u0430\u0442\u044b",
+                                                            "full": "\u0412\u043e\u0437\u0432\u0440\u0430\u0442 \u043f\u0440\u043e\u0432\u043e\u0437\u043d\u043e\u0439 \u043f\u043b\u0430\u0442\u044b \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d \u043f\u0440\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0438 \u043e\u0431 \u043e\u0442\u043a\u0430\u0437\u0435 \u043e\u0442 \u043f\u0435\u0440\u0435\u0432\u043e\u0437\u043a\u0438 \u043d\u0435 \u043f\u043e\u0437\u0434\u043d\u0435\u0435, \u0447\u0435\u043c \u0437\u0430 40 \u043c\u0438\u043d\u0443\u0442 \u0434\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0440\u0435\u0439\u0441\u0430, \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u043e\u0433\u043e \u0432 \u0431\u0438\u043b\u0435\u0442\u0435, \u0441 \u0443\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u0435\u043c \u043f\u043b\u0430\u0442\u044b. \u0412\u043e\u0437\u0432\u0440\u0430\u0442 \u043f\u0440\u043e\u0432\u043e\u0437\u043d\u043e\u0439 \u043f\u043b\u0430\u0442\u044b \u043f\u0440\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0438 \u043e\u0431 \u043e\u0442\u043a\u0430\u0437\u0435 \u043e\u0442 \u043f\u0435\u0440\u0435\u0432\u043e\u0437\u043a\u0438 \u043f\u043e\u0441\u043b\u0435 \u043e\u043a\u043e\u043d\u0447\u0430\u043d\u0438\u044f \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u043e\u0433\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u043f\u0430\u0441\u0441\u0430\u0436\u0438\u0440\u043e\u0432 \u043d\u0430 \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u0432 \u0431\u0438\u043b\u0435\u0442\u0435 \u0440\u0435\u0439\u0441 \u043d\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d."
+                                                        },
+                                                        "markAsImportant": false
+                                                    }
+                                                ],
+                                                "misc": [
+                                                    {
+                                                        "code": "miles",
+                                                        "needToPay": "Free",
+                                                        "priority": 3,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041c\u0438\u043b\u0438 \u00ab\u0410\u044d\u0440\u043e\u0444\u043b\u043e\u0442 \u0411\u043e\u043d\u0443\u0441\u00bb \u2014 100-150%",
+                                                            "full": ""
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "seats_registration",
+                                                        "needToPay": "Charge",
+                                                        "priority": 4,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u0412\u044b\u0431\u043e\u0440 \u043c\u0435\u0441\u0442",
+                                                            "full": "\u041f\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u044b\u0431\u043e\u0440 \u043c\u0435\u0441\u0442 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d \u0437\u0430 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u043f\u043b\u0430\u0442\u0443."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "Free",
+                                                        "priority": 11,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u0421\u0442\u043e\u043f\u043e\u0432\u0435\u0440",
+                                                            "full": "\u0412\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u043d\u0430\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u044f \u0432 \u043f\u0443\u043d\u043a\u0442\u0435 \u043f\u0435\u0440\u0435\u0441\u0430\u0434\u043a\u0438 \u0431\u043e\u043b\u0435\u0435 24 \u0447\u0430\u0441\u043e\u0432, \u043d\u043e \u043c\u0435\u043d\u0435\u0435 72 \u0447\u0430\u0441\u043e\u0432 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 12,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f",
+                                                            "full": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u043d\u0435 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 13,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u0414\u043e\u0441\u0442\u0443\u043f \u0432 \u0437\u0430\u043b\u044b \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u044f",
+                                                            "full": "\u0414\u043e\u0441\u0442\u0443\u043f \u0432 \u0437\u0430\u043b\u044b \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u044f \u043f\u043e\u0432\u044b\u0448\u0435\u043d\u043d\u043e\u0439 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u043e\u0441\u0442\u0438 \u043d\u0435 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 15,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u043f\u043e\u0441\u0430\u0434\u043a\u0430",
+                                                            "full": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u0430\u044f \u043f\u043e\u0441\u0430\u0434\u043a\u0430 SkyPriority \u043d\u0435 \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u0430 \u0432 \u0442\u0430\u0440\u0438\u0444."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 16,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u043e\u0435 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0433\u0430\u0436\u0430",
+                                                            "full": "\u041f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u043e\u0435 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0433\u0430\u0436\u0430 SkyPriority \u043d\u0435 \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u043e \u0432 \u0442\u0430\u0440\u0438\u0444."
+                                                        },
+                                                        "markAsImportant": false
+                                                    }
+                                                ],
+                                                "hasFeatures": true,
+                                                "isAutoGeneratedWithDescription": false
+                                            },
+                                            "familyName": "\u042d\u043a\u043e\u043d\u043e\u043c \u041e\u043f\u0442\u0438\u043c\u0443\u043c",
+                                            "segNum": 0,
+                                            "routeNumber": 0,
+                                            "serviceClass": "Economy"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "tariffsLink": "https://booking.ata-chukotka.ru/booking__rules?code=YCOSRI",
+                            "segmentInfo": [
+                                {
+                                    "segNum": 0,
+                                    "routeNumber": 0,
+                                    "bookingClass": "Y",
+                                    "serviceClass": "Economy",
+                                    "avlSeats": 9,
+                                    "freeBaggage": [
+                                        {
+                                            "passtype": "ADT",
+                                            "value": 1,
+                                            "measurement": "pc"
+                                        },
+                                        {
+                                            "passtype": "CNN",
+                                            "value": 1,
+                                            "measurement": "pc"
+                                        }
+                                    ],
+                                    "minBaggage": {
+                                        "value": 1,
+                                        "measurement": "pc"
+                                    }
+                                }
+                            ],
+                            "id": "P1"
+                        }
+                    },
+                    "segments": {
+                        "S1": {
+                            "id": "S1",
+                            "depAirp": "DYR",
+                            "arrAirp": "SVO",
+                            "number": 0,
+                            "routeNumber": 0,
+                            "operatingCompany": "SU",
+                            "marketingCompany": "SU",
+                            "aircraftType": "773",
+                            "flightNumber": "6220",
+                            "isCharter": false,
+                            "isLowCost": false,
+                            "depTerminal": null,
+                            "arrTerminal": "B",
+                            "flightTime": 485,
+                            "eTicket": true,
+                            "depDateTime": "2024-05-30T15:25:00",
+                            "arrDateTime": "2024-05-30T14:30:00",
+                            "stopPoints": null
+                        }
+                    }
+                },
+                "id": 1315674331,
+                "uri": "/api/flights/search/results/1315674331"
+            },
+            "resultData": {
+                "postFilters": {
+                    "postFiltersSort": [
+                        "subsidyInfo",
+                        "flightID",
+                        "freeBaggage",
+                        "timeEnRoute",
+                        "departureAirport",
+                        "arrivalAirport",
+                        "departureTime",
+                        "arrivalTime",
+                        "transfersCount",
+                        "price",
+                        "carrier",
+                        "transfersDuration",
+                        "travelPolicies"
+                    ],
+                    "showPostFilterHint": false
+                },
+                "defaultSort": "price",
+                "carrierDefaultSort": "depTime",
+                "showAirplanePopup": true,
+                "defaultViewType": "tile",
+                "showBlocks": {
+                    "useShowCase": false,
+                    "showBestOffers": false,
+                    "useFlightCompareTable": false,
+                    "hideViewTypeButtons": false,
+                    "allow\u0421laim\u0421reation": false,
+                    "showFareVariations": false
+                },
+                "searchTimeout": {
+                    "useSearchTimeout": false
+                },
+                "needCheckAvail": true,
+                "compareTableTransfersType": "sum"
+            },
+            "request": {
+                "id": 1315674331,
+                "uri": "/api/flights/search/request/1315674331",
+                "segments": [
+                    {
+                        "departure": {
+                            "IATA": "DYR",
+                            "isCity": false,
+                            "cityId": 58283
+                        },
+                        "arrival": {
+                            "IATA": "MOW",
+                            "isCity": true,
+                            "cityId": 58165
+                        },
+                        "departureDate": "2024-05-30T00:00:00"
+                    }
+                ],
+                "passengers": [
+                    {
+                        "type": "ADT",
+                        "count": 1
+                    },
+                    {
+                        "type": "CLD",
+                        "count": 1
+                    }
+                ],
+                "parameters": {
+                    "searchType": "OW",
+                    "direct": false,
+                    "aroundDates": 0,
+                    "serviceClass": "Economy",
+                    "flightNumbers": [],
+                    "airlines": [],
+                    "delayed": true,
+                    "priceRefundType": null
+                }
+            },
+            "formData": {
+                "maxLimits": {
+                    "passengerCount": {
+                        "ADT": "6",
+                        "SRC": "6",
+                        "YTH": "6",
+                        "CLD": "4",
+                        "INF": "2",
+                        "INS": "2"
+                    },
+                    "totalPassengers": "9",
+                    "flightSegments": "5",
+                    "ageRestrictions": {
+                        "INF": {
+                            "from": 0,
+                            "to": 2,
+                            "translation": "passengerType_infant_ageInfo"
+                        },
+                        "INS": {
+                            "from": 0,
+                            "to": 2,
+                            "translation": "passengerType_infant_ageInfo"
+                        },
+                        "CLD": {
+                            "from": 2,
+                            "to": 12,
+                            "translation": "passengerType_child_ageInfo"
+                        },
+                        "ADT": {
+                            "from": 12,
+                            "to": null,
+                            "translation": "passengerType_adult_ageInfo"
+                        },
+                        "YTH": {
+                            "from": 12,
+                            "to": 16,
+                            "translation": "passengerType_student_ageInfo"
+                        },
+                        "SRC": {
+                            "from": 60,
+                            "to": null,
+                            "translation": "passengerType_retired_person_ageInfo"
+                        }
+                    }
+                },
+                "dateOptions": {
+                    "minOffset": 0,
+                    "maxOffset": 365,
+                    "aroundDatesValues": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                "showCitySwapBtn": true,
+                "scheduleSearchEnable": true,
+                "onFocusAutocomplete": false,
+                "forceAggregationAirports": false,
+                "searchWithoutAdults": false,
+                "hideDirectOnlyCheckbox": false,
+                "highlightDates": false,
+                "disableUnavailableDate": false,
+                "passengersSelect": {
+                    "extendedPassengersSelect": true,
+                    "passengersSelectAlt": true,
+                    "tripType": "select",
+                    "fastPassengersSelect": [
+                        {
+                            "label": "singleAdult",
+                            "set": {
+                                "ADT": 1
+                            }
+                        },
+                        {
+                            "label": "twoAdults",
+                            "set": {
+                                "ADT": 2
+                            }
+                        },
+                        {
+                            "label": "twoAdultsWithChild",
+                            "set": {
+                                "ADT": 2,
+                                "CLD": 1
+                            }
+                        }
+                    ]
+                },
+                "id": 1315674331,
+                "uri": "/api/flights/search/formData/1315674331"
+            }
+        }
+    },
+    "system": {
+        "info": {
+            "response": {
+                "timestamp": 1716003458.845099,
+                "responseTime": 1.4449100494384766
+            },
+            "user": {
+                "userID": 792241,
+                "agencyID": 790754,
+                "status": "guest",
+                "isB2B": false,
+                "settings": {
+                    "currentLanguage": "ru",
+                    "currentCurrency": "RUB",
+                    "agencyCurrency": "RUB",
+                    "agencyCountry": "RU",
+                    "googleMapsApiKey": "",
+                    "googleMapsClientId": "",
+                    "showFullFlightsResults": "false"
+                }
+            }
+        }
+    }
+}
