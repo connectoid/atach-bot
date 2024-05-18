@@ -1,0 +1,860 @@
+{
+    "guide": {
+        "countries": {
+            "RU": {
+                "code": "RU",
+                "name": "Россия",
+                "nameEn": "Russia"
+            },
+            "US": {
+                "code": "US",
+                "name": "Соединенные Штаты",
+                "nameEn": "United States"
+            }
+        },
+        "cities": {
+            "58283": {
+                "IATA": "DYR",
+                "name": "Анадырь",
+                "nameEn": "Anadyr",
+                "countryCode": "RU",
+                "id": 58283
+            },
+            "58165": {
+                "IATA": "MOW",
+                "name": "Москва",
+                "nameEn": "Moscow",
+                "countryCode": "RU",
+                "id": 58165
+            }
+        },
+        "airports": {
+            "DYR": {
+                "IATA": "DYR",
+                "cityId": 58283,
+                "cityIata": "DYR",
+                "isAggregation": false,
+                "airportRating": "4418",
+                "baseType": "airport",
+                "properNameEn": null,
+                "properName": null,
+                "name": "Анадырь",
+                "nameEn": "Anadyr",
+                "countryCode": "RU"
+            },
+            "SVO": {
+                "IATA": "SVO",
+                "cityId": 58165,
+                "cityIata": "MOW",
+                "isAggregation": false,
+                "airportRating": "2012",
+                "baseType": "airport",
+                "properNameEn": "Sheremetyevo",
+                "properName": "Шереметьево",
+                "name": "Шереметьево, Москва",
+                "nameEn": "Sheremetyevo, Moscow",
+                "countryCode": "RU"
+            },
+            "MOW": {
+                "IATA": "MOW",
+                "cityId": 58165,
+                "cityIata": "MOW",
+                "isAggregation": true,
+                "airportRating": "3537272",
+                "baseType": "airport",
+                "properNameEn": null,
+                "properName": null,
+                "name": "Москва",
+                "nameEn": "Moscow",
+                "countryCode": "RU"
+            }
+        },
+        "airlines": {
+            "SU": {
+                "IATA": "SU",
+                "name": "Аэрофлот",
+                "nameEn": "Aeroflot",
+                "nameFallback": "Aeroflot",
+                "rating": 7.5,
+                "countryCode": "RU",
+                "logo": {
+                    "image": "/guideStatic/images/carrier/logotype/3869-a73427f1141d3a37e1523c6193140a5d.svg",
+                    "icon": "/guideStatic/images/carrier/logotype/3869-a73427f1141d3a37e1523c6193140a5d.svg",
+                    "width": "0",
+                    "height": "0"
+                },
+                "monochromeLogo": {
+                    "image": "/guideStatic/images/carrier/monochrome/5300-ff76a2b068ec48ac1372fdb512a37d66.svg",
+                    "icon": "/guideStatic/images/carrier/monochrome/5300-ff76a2b068ec48ac1372fdb512a37d66.svg",
+                    "width": "0",
+                    "height": "0"
+                },
+                "colors": {
+                    "companyColor": "#345381",
+                    "companyColorAdditional": "#1e4275"
+                }
+            }
+        },
+        "aircrafts": {
+            "773": {
+                "id": 100053,
+                "name": "Боинг 777-300",
+                "nameEn": "Boeing 777-300",
+                "code": "773",
+                "manufacture": "Boeing",
+                "originCountries": [
+                    "US"
+                ],
+                "distanceType": "Дальнемагистральный",
+                "fuselageType": "Широкофюзеляжный",
+                "capacity": "386",
+                "cruiseSpeed": "905",
+                "isTurbineAirctaft": false,
+                "isHomeAirctaft": false,
+                "image": {
+                    "image": "/guideStatic/images/aircraft/images/2336-34beb8b2ee6bda8c4633d9654d1a9735.jpg",
+                    "icon": "/guideStatic/images/aircraft/images/2337-1923fbc6b86be12979d50b6a9dce3fdc.jpg",
+                    "width": "666",
+                    "height": "500"
+                },
+                "map_image": {
+                    "image": "/guideStatic/images/aircraft/map_image/5426-33c7a1cc73a2d51ae92c7f563d0fccf1.jpg",
+                    "icon": "/guideStatic/images/aircraft/map_image/5427-632ff382980b0e121baaa9eabd7aa79e.jpg",
+                    "width": "400",
+                    "height": "94"
+                }
+            }
+        }
+    },
+    "flights": {
+        "search": {
+            "results": {
+                "flightGroups": [
+                    {
+                        "segments": [
+                            "S1"
+                        ],
+                        "flights": [
+                            {
+                                "id": 5271562230001,
+                                "nemo2id": "257538288050000",
+                                "service": "MIXVELNDC",
+                                "price": "P1",
+                                "rating": 10,
+                                "expectedNumberOfTickets": 2,
+                                "standbyQueueNumber": null,
+                                "isRecommended": false,
+                                "canProcessFareFamilies": true,
+                                "travelPolicies": [],
+                                "createOrderLink": "https://booking.ata-chukotka.ru/create__order?r="
+                            }
+                        ]
+                    }
+                ],
+                "info": {
+                    "errorCode": null,
+                    "errorMessageEng": null
+                },
+                "groupsData": {
+                    "prices": {
+                        "P1": {
+                            "flightPrice": {
+                                "amount": 39170,
+                                "currency": "RUB"
+                            },
+                            "agencyCharge": {
+                                "amount": 0,
+                                "currency": "RUB"
+                            },
+                            "totalPrice": {
+                                "amount": 39170,
+                                "currency": "RUB"
+                            },
+                            "originalCurrency": "RUB",
+                            "priceWithoutPromocode": null,
+                            "validatingCompany": "SU",
+                            "refundable": null,
+                            "privateFareInd": false,
+                            "ticketTimeLimit": "2024-05-17T15:41:00",
+                            "service": "MixVel NDC",
+                            "avlSeatsMin": 9,
+                            "canHaveSubsidizedTariffs": false,
+                            "warnings": [],
+                            "passengerFares": [
+                                {
+                                    "type": "ADT",
+                                    "count": 1,
+                                    "baseFare": {
+                                        "amount": 20000,
+                                        "currency": "RUB"
+                                    },
+                                    "equivFare": {
+                                        "amount": 20000,
+                                        "currency": "RUB"
+                                    },
+                                    "totalFare": {
+                                        "amount": 21085,
+                                        "currency": "RUB"
+                                    },
+                                    "taxes": [
+                                        {
+                                            "ZZ": {
+                                                "amount": 185,
+                                                "currency": "RUB"
+                                            }
+                                        },
+                                        {
+                                            "SR": {
+                                                "amount": 900,
+                                                "currency": "RUB"
+                                            }
+                                        }
+                                    ],
+                                    "tariffs": [
+                                        {
+                                            "code": "YCOSRI",
+                                            "features": {
+                                                "baggage": [
+                                                    {
+                                                        "code": "carry_on",
+                                                        "needToPay": "Free",
+                                                        "priority": 1,
+                                                        "showTitle": true,
+                                                        "description": {
+                                                            "short": "1x10 кг",
+                                                            "full": ""
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "baggage",
+                                                        "needToPay": "Free",
+                                                        "priority": 2,
+                                                        "showTitle": true,
+                                                        "description": {
+                                                            "short": "1 сумка",
+                                                            "full": ""
+                                                        },
+                                                        "markAsImportant": false
+                                                    }
+                                                ],
+                                                "refunds": [
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 5,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Внесение изменений в билет",
+                                                            "full": "Внесение изменений в билет разрешено не позднее 40 минут после времени отправления рейса, указанного в оформленном билете, при условии наличия мест по оплаченному тарифу, с взиманием платы. Внесение изменений позднее 40 минут после времени отправления рейса, указанного в оформленном билете — не разрешено."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 6,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Повышение в класс Комфорт",
+                                                            "full": "Повышение в класс Комфорт на стойке регистрации разрешено за дополнительную плату."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 7,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Повышение в класс Бизнес",
+                                                            "full": "Повышение в класс Бизнес на стойке регистрации разрешено за дополнительную плату."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 8,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Повышение класса за мили",
+                                                            "full": "Премиальное повышение класса обслуживания за мили не разрешено."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 10,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Открытая дата обратного вылета",
+                                                            "full": "Открытая дата обратного вылета недоступна."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "refundable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 9,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Возврат провозной платы",
+                                                            "full": "Возврат провозной платы разрешен при уведомлении об отказе от перевозки не позднее, чем за 40 минут до времени отправления рейса, указанного в билете, с удержанием платы. Возврат провозной платы при уведомлении об отказе от перевозки после окончания установленного времени регистрации пассажиров на указанный в билете рейс не разрешен."
+                                                        },
+                                                        "markAsImportant": false
+                                                    }
+                                                ],
+                                                "misc": [
+                                                    {
+                                                        "code": "miles",
+                                                        "needToPay": "Free",
+                                                        "priority": 3,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Мили «Аэрофлот Бонус» — 100-150%",
+                                                            "full": ""
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "seats_registration",
+                                                        "needToPay": "Charge",
+                                                        "priority": 4,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Выбор мест",
+                                                            "full": "Предварительный выбор мест разрешен за дополнительную плату."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "Free",
+                                                        "priority": 11,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Стоповер",
+                                                            "full": "Возможность нахождения в пункте пересадки более 24 часов, но менее 72 часов предоставляется бесплатно."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 12,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Приоритетная регистрация",
+                                                            "full": "Приоритетная регистрация не предоставляется."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 13,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Доступ в залы ожидания",
+                                                            "full": "Доступ в залы ожидания повышенной комфортности не предоставляется."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 15,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Приоритетная посадка",
+                                                            "full": "Приоритетная посадка SkyPriority не включена в тариф."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 16,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Приоритетное обслуживание багажа",
+                                                            "full": "Приоритетное обслуживание багажа SkyPriority не включено в тариф."
+                                                        },
+                                                        "markAsImportant": false
+                                                    }
+                                                ],
+                                                "hasFeatures": true,
+                                                "isAutoGeneratedWithDescription": false
+                                            },
+                                            "familyName": "Эконом Оптимум",
+                                            "segNum": 0,
+                                            "routeNumber": 0,
+                                            "serviceClass": "Economy"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "CNN",
+                                    "count": 1,
+                                    "baseFare": {
+                                        "amount": 17000,
+                                        "currency": "RUB"
+                                    },
+                                    "equivFare": {
+                                        "amount": 17000,
+                                        "currency": "RUB"
+                                    },
+                                    "totalFare": {
+                                        "amount": 18085,
+                                        "currency": "RUB"
+                                    },
+                                    "taxes": [
+                                        {
+                                            "ZZ": {
+                                                "amount": 185,
+                                                "currency": "RUB"
+                                            }
+                                        },
+                                        {
+                                            "SR": {
+                                                "amount": 900,
+                                                "currency": "RUB"
+                                            }
+                                        }
+                                    ],
+                                    "tariffs": [
+                                        {
+                                            "code": "YCOSRI/CH15",
+                                            "features": {
+                                                "baggage": [
+                                                    {
+                                                        "code": "carry_on",
+                                                        "needToPay": "Free",
+                                                        "priority": 1,
+                                                        "showTitle": true,
+                                                        "description": {
+                                                            "short": "1x10 кг",
+                                                            "full": ""
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "baggage",
+                                                        "needToPay": "Free",
+                                                        "priority": 2,
+                                                        "showTitle": true,
+                                                        "description": {
+                                                            "short": "1 сумка",
+                                                            "full": ""
+                                                        },
+                                                        "markAsImportant": false
+                                                    }
+                                                ],
+                                                "refunds": [
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 5,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Внесение изменений в билет",
+                                                            "full": "Внесение изменений в билет разрешено не позднее 40 минут после времени отправления рейса, указанного в оформленном билете, при условии наличия мест по оплаченному тарифу, с взиманием платы. Внесение изменений позднее 40 минут после времени отправления рейса, указанного в оформленном билете — не разрешено."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 6,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Повышение в класс Комфорт",
+                                                            "full": "Повышение в класс Комфорт на стойке регистрации разрешено за дополнительную плату."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 7,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Повышение в класс Бизнес",
+                                                            "full": "Повышение в класс Бизнес на стойке регистрации разрешено за дополнительную плату."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 8,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Повышение класса за мили",
+                                                            "full": "Премиальное повышение класса обслуживания за мили не разрешено."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "exchangeable",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 10,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Открытая дата обратного вылета",
+                                                            "full": "Открытая дата обратного вылета недоступна."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "refundable",
+                                                        "needToPay": "Charge",
+                                                        "priority": 9,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Возврат провозной платы",
+                                                            "full": "Возврат провозной платы разрешен при уведомлении об отказе от перевозки не позднее, чем за 40 минут до времени отправления рейса, указанного в билете, с удержанием платы. Возврат провозной платы при уведомлении об отказе от перевозки после окончания установленного времени регистрации пассажиров на указанный в билете рейс не разрешен."
+                                                        },
+                                                        "markAsImportant": false
+                                                    }
+                                                ],
+                                                "misc": [
+                                                    {
+                                                        "code": "miles",
+                                                        "needToPay": "Free",
+                                                        "priority": 3,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Мили «Аэрофлот Бонус» — 100-150%",
+                                                            "full": ""
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "seats_registration",
+                                                        "needToPay": "Charge",
+                                                        "priority": 4,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Выбор мест",
+                                                            "full": "Предварительный выбор мест разрешен за дополнительную плату."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "Free",
+                                                        "priority": 11,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Стоповер",
+                                                            "full": "Возможность нахождения в пункте пересадки более 24 часов, но менее 72 часов предоставляется бесплатно."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 12,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Приоритетная регистрация",
+                                                            "full": "Приоритетная регистрация не предоставляется."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 13,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Доступ в залы ожидания",
+                                                            "full": "Доступ в залы ожидания повышенной комфортности не предоставляется."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 15,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Приоритетная посадка",
+                                                            "full": "Приоритетная посадка SkyPriority не включена в тариф."
+                                                        },
+                                                        "markAsImportant": false
+                                                    },
+                                                    {
+                                                        "code": "vip_service",
+                                                        "needToPay": "NotAvailable",
+                                                        "priority": 16,
+                                                        "showTitle": false,
+                                                        "description": {
+                                                            "short": "Приоритетное обслуживание багажа",
+                                                            "full": "Приоритетное обслуживание багажа SkyPriority не включено в тариф."
+                                                        },
+                                                        "markAsImportant": false
+                                                    }
+                                                ],
+                                                "hasFeatures": true,
+                                                "isAutoGeneratedWithDescription": false
+                                            },
+                                            "familyName": "Эконом Оптимум",
+                                            "segNum": 0,
+                                            "routeNumber": 0,
+                                            "serviceClass": "Economy"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "tariffsLink": "https://booking.ata-chukotka.ru/booking__rules?code=YCOSRI",
+                            "segmentInfo": [
+                                {
+                                    "segNum": 0,
+                                    "routeNumber": 0,
+                                    "bookingClass": "Y",
+                                    "serviceClass": "Economy",
+                                    "avlSeats": 9,
+                                    "freeBaggage": [
+                                        {
+                                            "passtype": "ADT",
+                                            "value": 1,
+                                            "measurement": "pc"
+                                        },
+                                        {
+                                            "passtype": "CNN",
+                                            "value": 1,
+                                            "measurement": "pc"
+                                        }
+                                    ],
+                                    "minBaggage": {
+                                        "value": 1,
+                                        "measurement": "pc"
+                                    }
+                                }
+                            ],
+                            "id": "P1"
+                        }
+                    },
+                    "segments": {
+                        "S1": {
+                            "id": "S1",
+                            "depAirp": "DYR",
+                            "arrAirp": "SVO",
+                            "number": 0,
+                            "routeNumber": 0,
+                            "operatingCompany": "SU",
+                            "marketingCompany": "SU",
+                            "aircraftType": "773",
+                            "flightNumber": "6220",
+                            "isCharter": false,
+                            "isLowCost": false,
+                            "depTerminal": null,
+                            "arrTerminal": "B",
+                            "flightTime": 485,
+                            "eTicket": true,
+                            "depDateTime": "2024-06-21T15:25:00",
+                            "arrDateTime": "2024-06-21T14:30:00",
+                            "stopPoints": null
+                        }
+                    }
+                },
+                "id": 1315636980,
+                "uri": "/api/flights/search/results/1315636980"
+            },
+            "resultData": {
+                "postFilters": {
+                    "postFiltersSort": [
+                        "subsidyInfo",
+                        "flightID",
+                        "freeBaggage",
+                        "timeEnRoute",
+                        "departureAirport",
+                        "arrivalAirport",
+                        "departureTime",
+                        "arrivalTime",
+                        "transfersCount",
+                        "price",
+                        "carrier",
+                        "transfersDuration",
+                        "travelPolicies"
+                    ],
+                    "showPostFilterHint": false
+                },
+                "defaultSort": "price",
+                "carrierDefaultSort": "depTime",
+                "showAirplanePopup": true,
+                "defaultViewType": "tile",
+                "showBlocks": {
+                    "useShowCase": false,
+                    "showBestOffers": false,
+                    "useFlightCompareTable": false,
+                    "hideViewTypeButtons": false,
+                    "allowСlaimСreation": false,
+                    "showFareVariations": false
+                },
+                "searchTimeout": {
+                    "useSearchTimeout": false
+                },
+                "needCheckAvail": true,
+                "compareTableTransfersType": "sum"
+            },
+            "request": {
+                "id": 1315636980,
+                "uri": "/api/flights/search/request/1315636980",
+                "segments": [
+                    {
+                        "departure": {
+                            "IATA": "DYR",
+                            "isCity": false,
+                            "cityId": 58283
+                        },
+                        "arrival": {
+                            "IATA": "MOW",
+                            "isCity": true,
+                            "cityId": 58165
+                        },
+                        "departureDate": "2024-06-21T00:00:00"
+                    }
+                ],
+                "passengers": [
+                    {
+                        "type": "ADT",
+                        "count": 1
+                    },
+                    {
+                        "type": "CLD",
+                        "count": 1
+                    }
+                ],
+                "parameters": {
+                    "searchType": "OW",
+                    "direct": false,
+                    "aroundDates": 0,
+                    "serviceClass": "Economy",
+                    "flightNumbers": [],
+                    "airlines": [],
+                    "delayed": true,
+                    "priceRefundType": null
+                }
+            },
+            "formData": {
+                "maxLimits": {
+                    "passengerCount": {
+                        "ADT": "6",
+                        "SRC": "6",
+                        "YTH": "6",
+                        "CLD": "4",
+                        "INF": "2",
+                        "INS": "2"
+                    },
+                    "totalPassengers": "9",
+                    "flightSegments": "5",
+                    "ageRestrictions": {
+                        "INF": {
+                            "from": 0,
+                            "to": 2,
+                            "translation": "passengerType_infant_ageInfo"
+                        },
+                        "INS": {
+                            "from": 0,
+                            "to": 2,
+                            "translation": "passengerType_infant_ageInfo"
+                        },
+                        "CLD": {
+                            "from": 2,
+                            "to": 12,
+                            "translation": "passengerType_child_ageInfo"
+                        },
+                        "ADT": {
+                            "from": 12,
+                            "to": null,
+                            "translation": "passengerType_adult_ageInfo"
+                        },
+                        "YTH": {
+                            "from": 12,
+                            "to": 16,
+                            "translation": "passengerType_student_ageInfo"
+                        },
+                        "SRC": {
+                            "from": 60,
+                            "to": null,
+                            "translation": "passengerType_retired_person_ageInfo"
+                        }
+                    }
+                },
+                "dateOptions": {
+                    "minOffset": 0,
+                    "maxOffset": 365,
+                    "aroundDatesValues": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                "showCitySwapBtn": true,
+                "scheduleSearchEnable": true,
+                "onFocusAutocomplete": false,
+                "forceAggregationAirports": false,
+                "searchWithoutAdults": false,
+                "hideDirectOnlyCheckbox": false,
+                "highlightDates": false,
+                "disableUnavailableDate": false,
+                "passengersSelect": {
+                    "extendedPassengersSelect": true,
+                    "passengersSelectAlt": true,
+                    "tripType": "select",
+                    "fastPassengersSelect": [
+                        {
+                            "label": "singleAdult",
+                            "set": {
+                                "ADT": 1
+                            }
+                        },
+                        {
+                            "label": "twoAdults",
+                            "set": {
+                                "ADT": 2
+                            }
+                        },
+                        {
+                            "label": "twoAdultsWithChild",
+                            "set": {
+                                "ADT": 2,
+                                "CLD": 1
+                            }
+                        }
+                    ]
+                },
+                "id": 1315636980,
+                "uri": "/api/flights/search/formData/1315636980"
+            }
+        }
+    },
+    "system": {
+        "info": {
+            "response": {
+                "timestamp": 1715947832.4547689,
+                "responseTime": 2.7837109565734863
+            },
+            "user": {
+                "userID": 792241,
+                "agencyID": 790754,
+                "status": "guest",
+                "isB2B": false,
+                "settings": {
+                    "currentLanguage": "ru",
+                    "currentCurrency": "RUB",
+                    "agencyCurrency": "RUB",
+                    "agencyCountry": "RU",
+                    "googleMapsApiKey": "",
+                    "googleMapsClientId": "",
+                    "showFullFlightsResults": "false"
+                }
+            }
+        }
+    }
+}
