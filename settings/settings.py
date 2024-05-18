@@ -14,4 +14,10 @@ data_list = [
         'departure': '{"IATA":"DYR","isCity":false}',
         'arrival': '{"IATA":"KHV","isCity":false}',
      },
+    {
+        'date': '2024-05-30T00:00:00',
+        'departure': '{"IATA":"DYR","isCity":false}',
+        'arrival': '{"IATA":"MOW","isCity":true}',
+     },
+
 ]
