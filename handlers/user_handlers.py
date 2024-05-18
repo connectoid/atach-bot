@@ -1,4 +1,5 @@
 import random
+from datetime import datetime
 
 from aiogram.filters import Command, CommandStart, StateFilter
 from aiogram import Router, F 
@@ -34,14 +35,18 @@ async def proccess_start_command(message: Message):
 
 @router.message(F.text == 'Проверить сейчас')
 async def process_help_command(message: Message):
+    current_time = datetime.now()
+    current_time = current_time.strftime("%d %B %Y, %H:%M:%S")
+    print(f'Билеты запрошены вручную в {current_time}')
     result_list = request_tickets()
     if result_list:
         for result_text in result_list:
             if result_text:
+                print(result_text)
                 await message.answer(text=result_text, 
                                     reply_markup=main_menu)
     else:
         random_text = random.choice(answers)
-
+        print(random_text)
         await message.answer(text=random_text, 
                                     reply_markup=main_menu)
