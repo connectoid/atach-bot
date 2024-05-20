@@ -37,7 +37,7 @@ def request_one_ticket(data):
     departure = data['departure']
     arrival = data['arrival']
     data = {
-        'request': '{"segments":[{"departure":' + departure + ',"arrival":' + arrival + ',"departureDate":"' + date + '"}],"passengers":[{"type":"ADT","count":1},{"type":"CLD","count":1}],"parameters":{"direct":false,"aroundDates":0,"serviceClass":"Economy","flightNumbers":null,"airlines":[],"delayed":true,"extraValue":null}}',
+        'request': '{"segments":[{"departure":' + departure + ',"arrival":' + arrival + ',"departureDate":"' + date + '"}],"passengers":[{"type":"ADT","count":1}],"parameters":{"direct":false,"aroundDates":0,"serviceClass":"Economy","flightNumbers":null,"airlines":[],"delayed":true,"extraValue":null}}',
     }
     response = requests.post(
             endpoint,
