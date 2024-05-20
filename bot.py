@@ -18,7 +18,7 @@ from dotenv import load_dotenv
 load_dotenv()
 BOT_TOKEN = os.getenv('BOT_TOKEN')
 LOG_FILE = 'atach-ebot.log'
-REQUEST_INTERVAL = 180
+REQUEST_INTERVAL = 30
 
 scheduler = AsyncIOScheduler()
 
